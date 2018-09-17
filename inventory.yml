@@ -1,0 +1,10 @@
+all:
+  hosts:
+    AWS
+  children:
+    tomcat_servers:
+      hosts:
+        192.168.254.91
+    dbservers:
+      hosts:
+        192.168.254.91
