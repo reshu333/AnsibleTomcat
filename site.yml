@@ -1,7 +1,7 @@
 ---
 # oracle-jdk8, tomcat8
 
-- hosts: Ankit_EC2
+- hosts: 192.168.254.91
   become: yes 
   
   roles:
